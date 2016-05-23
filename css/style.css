@@ -1,0 +1,48 @@
+body{
+  overflow: hidden;
+}
+@font-face {
+    font-family: "bebas";
+    src: url('../font/BEBASNEUEBOLD.TTF');
+}
+
+@font-face {
+    font-family: "pacifico";
+    src: url('../font/Pacifico.ttf');
+}
+
+::selection{
+  background-color: #0386c9;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #0386c9;
+  color: white;
+}
+
+.brand-logo{
+  font-family: "pacifico", Helvetica, Arial, sans-serif;
+  margin-left: 1%;
+  color: white;
+}
+
+.nav-wrapper {
+  background-color: #C01422;
+}
+
+.hide-on-med-and-down{
+  margin-left: 10vw;
+  font-family: "bebas", Helvetica, Arial, sans-serif;
+}
+
+.acceuil{
+  height: 100vh;
+  width: 100vw;
+  margin:0 auto;
+}
+
+.acceuil img{
+  width: 100%;
+  margin:0 auto;
+}
