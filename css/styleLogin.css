@@ -1,3 +1,57 @@
 .input-field input[type=text]:focus + label,.input-field input[type=password]:focus + label {
     color: #be1423 ;
 }
+
+::-webkit-scrollbar-track
+{
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #F5F5F5;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: rgb(209, 47, 48); }
+
+body{
+    overflow-y: scroll;
+}
+
+.imagesGestion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+.imagesGestion .myImage{
+    position: relative;
+}
+
+.imagesGestion .myImage p{
+    background-color: rgba(0, 0, 0, 0.30);
+    padding: 5px;
+    position: absolute;
+    color: white;
+    top:10px;
+    /*left:10px;*/
+}
+
+.imagesGestion .myImage img{
+    height: 20vh;
+    width: auto;
+    margin-top: 10px;
+    /*margin-left: 10px;*/
+    flex: 1;
+}
+
+@media (max-width : 720px) {
+    .imagesGestion{
+        overflow-y: scroll;
+        height: 60vh;
+    }
+}
