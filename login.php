@@ -44,6 +44,21 @@
     </form>
     <!--    Code en attendant la BDD -->
 <?php } elseif ($_POST['login'] == 'admin' && sha1($_POST['password']) == "ebfc7910077770c8340f63cd2dca2ac1f120444f") { ?>
+
+    <?php
+
+    if (isset($_FILES) && !empty($_FILES)){
+        $files = $_FILES['files'];
+        $images = array();
+        for ($i = 0; $i < count($files['name']); $i ++){
+            array_push($images, array('name' => $files['name'][$i] , 'type' => $files['type'][$i], 'tmp_name' => $files['tmp_name'][$i], 'error' => $files['error'][$i], 'size' => $files['size'][$i]));
+        }
+        foreach ($images as $image) {
+            move_uploaded_file($image['tmp_name'],'./img/gallery/'.$image['name']);
+        }
+    }
+
+    ?>
     <div class="nav-wrapper">
         <div class="white-text" style="font-size: 2em; margin-left: 10px;">BackOffice</div>
     </div>
@@ -59,16 +74,35 @@
         <ul class="collapsible" data-collapsible="accordion">
             <li>
                 <div class="collapsible-header"><i class="material-icons">view_module</i>Gestion des images</div>
-                <div class="collapsible-body imagesGestion">
-                    <?php
-                    $images = scandir("img/gallery");
-                    foreach ($images as $key => $value) {
-                        if ($key > 1) echo '<div class="myImage">
+                <div class="collapsible-body">
+                    <form action="./login.php" class="col s6" style="margin-top: 5px" method="post" enctype="multipart/form-data">
+                        <div class="file-field input-field ">
+                            <div class="btn red darken-2 waves-effect waves-light">
+                                <span>Image</span>
+                                <input type="file" name="files[]" accept=".jpeg, .jpg, .gif, .png" multiple>
+                            </div>
+                            <div class="file-path-wrapper">
+                                <input class="file-path validate" name="ImagesName" type="text" placeholder="Upload one or more images">
+                            </div>
+                        </div>
+                        <input type="hidden" name="login" value="<?php echo $_POST['login'] ?>">
+                        <input type="hidden" name="password" value="<?php echo $_POST['password'] ?>">
+                        <button class="btn red darken-2 waves-effect waves-light" type="submit" name="addImages" value="addImages">Ajouter une image
+                            <i class="material-icons right">library_add</i>
+                        </button>
+                    </form>
+                    <div class="imagesGestion">
+
+                        <?php
+                        $images = scandir("img/gallery");
+                        foreach ($images as $key => $value) {
+                            if ($key > 1) echo '<div class="myImage">
     <img class="materialboxed" src="img/gallery/' . $value . '" alt="' . $value . '" />
     <p>' . getimagesize("img/gallery/" . $value)[0] . ' x ' . getimagesize("img/gallery/" . $value)[1] . '</p>
     </div>';
-                    }
-                    ?>
+                        }
+                        ?>
+                    </div>
                 </div>
             </li>
             <li>
