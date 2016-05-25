@@ -47,16 +47,28 @@
 
     <?php
 
-    if (isset($_FILES) && !empty($_FILES)){
+    if (isset($_FILES) && !empty($_FILES)) {
         $files = $_FILES['files'];
         $images = array();
-        for ($i = 0; $i < count($files['name']); $i ++){
-            array_push($images, array('name' => $files['name'][$i] , 'type' => $files['type'][$i], 'tmp_name' => $files['tmp_name'][$i], 'error' => $files['error'][$i], 'size' => $files['size'][$i]));
+        for ($i = 0; $i < count($files['name']); $i++) {
+            array_push($images, array('name' => $files['name'][$i], 'type' => $files['type'][$i], 'tmp_name' => $files['tmp_name'][$i], 'error' => $files['error'][$i], 'size' => $files['size'][$i]));
         }
         foreach ($images as $image) {
-            move_uploaded_file($image['tmp_name'],'./img/gallery/'.$image['name']);
+            $image['type']=='image/jpeg' || $image['type']=='image/jpg' || $image['type']=='image/gif' || $image['type']=='image/png' ? move_uploaded_file($image['tmp_name'], './img/gallery/' . $image['name']) : null;
         }
     }
+
+    if(isset($_POST['deleteImages']) && $_POST['deleteImages'] == 'deleteImages')
+    {
+        $images = scandir('img/gallery/');
+        $exist = false;
+
+        for ($i = 0; $i < count($images); $i++){
+            if($images[$i] == $_POST['imageNameToDelete']) $exist = true;
+        }
+        if($exist) unlink('img/gallery/'.$_POST['imageNameToDelete']);
+    }
+
 
     ?>
     <div class="nav-wrapper">
@@ -73,7 +85,7 @@
 
         <ul class="collapsible" data-collapsible="accordion">
             <li>
-                <div class="collapsible-header"><i class="material-icons">view_module</i>Gestion des images</div>
+                <div class="active collapsible-header"><i class="material-icons">view_module</i>Gestion des images</div>
                 <div class="collapsible-body">
                     <form action="./login.php" class="col s6" style="margin-top: 5px" method="post" enctype="multipart/form-data">
                         <div class="file-field input-field ">
@@ -82,7 +94,7 @@
                                 <input type="file" name="files[]" accept=".jpeg, .jpg, .gif, .png" multiple>
                             </div>
                             <div class="file-path-wrapper">
-                                <input class="file-path validate" name="ImagesName" type="text" placeholder="Upload one or more images">
+                                <input class="file-path validate" name="ImagesName[]" type="text" placeholder="Upload one or more images">
                             </div>
                         </div>
                         <input type="hidden" name="login" value="<?php echo $_POST['login'] ?>">
@@ -99,6 +111,14 @@
                             if ($key > 1) echo '<div class="myImage">
     <img class="materialboxed" src="img/gallery/' . $value . '" alt="' . $value . '" />
     <p>' . getimagesize("img/gallery/" . $value)[0] . ' x ' . getimagesize("img/gallery/" . $value)[1] . '</p>
+    <form action="login.php" method="post">
+        <input type="hidden" name="login" value="'.$_POST["login"].'">
+        <input type="hidden" name="password" value="'.$_POST["password"].'">
+        <input type="hidden" name="imageNameToDelete" value="'.$value.'">
+        <button id="delete" class="btn waves-effect waves-light" type="submit" name="deleteImages" value="deleteImages">
+            <i  class="red-text darken-5 material-icons">delete</i>
+        </button>
+    </form>
     </div>';
                         }
                         ?>

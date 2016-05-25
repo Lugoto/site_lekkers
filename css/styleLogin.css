@@ -48,6 +48,18 @@ body{
     /*margin-left: 10px;*/
     flex: 1;
 }
+.imagesGestion .myImage #delete{
+    display: none;
+    padding:5px;
+}
+
+.imagesGestion .myImage:hover #delete{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.50);
+    position: absolute;
+    top:10px;
+    right:0;
+}
 
 @media (max-width : 720px) {
     .imagesGestion{
