@@ -35,6 +35,7 @@
             <li><a href="info.html">Contact</a></li>
         </ul>
     </div>
+  </nav>
 
     <div class="acceuil">
         <img src="img/acceuil.png" alt=""/>

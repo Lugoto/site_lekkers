@@ -1,5 +1,24 @@
-.input-field input[type=text]:focus + label,.input-field input[type=password]:focus + label {
-    color: #be1423 ;
+.input-field label {
+  color: #C01422;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #C01422;
+}
+
+.input-field input[type=password]:focus + label {
+  color: #C01422;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #C01422;
+  box-shadow: 0 1px 0 0 #C01422;
+}
+
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid #C01422;
+  box-shadow: 0 1px 0 0 #C01422;
 }
 
 ::-webkit-scrollbar-track
@@ -17,6 +36,8 @@
 
 body{
     overflow-y: scroll;
+    background-image:url(../img/fond.jpg);
+    background-repeat:no-repeat;
 }
 
 .imagesGestion{
@@ -59,6 +80,17 @@ body{
     position: absolute;
     top:10px;
     right:0;
+}
+
+.formulaire{
+  width: 50vw;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  border-radius: 20px;
 }
 
 @media (max-width : 720px) {
