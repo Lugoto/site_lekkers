@@ -18,7 +18,7 @@
 </head>
 
 
-<body>
+<div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper">
       <a href="http://lekkersfrance.com" class="brand-logo">Lekkers</a>
@@ -38,7 +38,6 @@
         <li><a class="soc-instagram" href="#"></a></li>
         <li><a class="soc-pinterest soc-icon-last" href="#"></a></li>
       </ul>
-
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="side-nav" id="mobile-demo">
         <li><a href="qualite.html">La qualité</a></li>
@@ -49,6 +48,8 @@
       </ul>
     </div>
   </nav>
+</div>
+<body>
 
   <div class="acceuil">
     <img src="img/acceuil.png" alt=""/>
