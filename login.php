@@ -74,6 +74,8 @@
         if ($exist) unlink('img/gallery/' . $_POST['imageNameToDelete']);
     }
 
+    include_once "fausseBDD/menu.php";
+
 
     ?>
     <div class="nav-wrapper">
@@ -105,20 +107,38 @@
                             <ul>
                                 <li>
                                     <div class="content">
-                                        <img src="img/gallery/menuClassic.png" alt="">
-                                        <p class="circle">7,60 €</p>
+                                        <img src="<?php echo $maDataBase->menus['classic']['image'];?>" alt="">
+                                        <div class="circle">
+                                            <div class="circle">
+                                                <p class="circle">
+                                                    <?php echo $maDataBase->menus['classic']['prix'];?> €
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="content">
-                                        <img src="img/gallery/menuExtra.png" alt="">
-                                        <p class="circle">8,70 €</p>
+                                        <img src="<?php echo $maDataBase->menus['extra']['image']?>" alt="">
+                                        <div class="circle">
+                                            <div class="circle">
+                                                <p class="circle">
+                                                    <?php echo $maDataBase->menus['extra']['prix']?> €
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="content">
-                                        <img src="img/gallery/menuDouble.png" alt="">
-                                        <p class="circle">13,20 €</p>
+                                        <img src="<?php echo $maDataBase->menus['double']['image']?>" alt="">
+                                        <div class="circle">
+                                            <div class="circle">
+                                                <p class="circle">
+                                                    <?php echo $maDataBase->menus['double']['prix']?> €
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>

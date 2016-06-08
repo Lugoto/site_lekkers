@@ -146,19 +146,48 @@ body {
     justify-content: center;
 }
 
-#gestionMenus #menu ul li p{
+#gestionMenus #menu ul li .content div{
+    /*padding: 10px;*/
     position: relative;
     top: -50px;
     margin: 0 auto;
     background-color: white;
     /*padding-top: 50%;*/
-    line-height:150px;
-    height: 150px;
-    width: 150px;
+    line-height:200px;
+
+    height: 200px;
+    width: 200px;
+    border:solid black 2px;
+}
+
+#gestionMenus #menu ul li .content div div{
+
+    position: relative;
+    top: 0px;
+    margin: 5.500px;
+    /*display:inline-block;*/
+    line-height:185px;
+    height: 185px;
+    width: 185px;
+    /*font-weight: bold;*/
+    /*font-style: italic;*/
+    /*font-size: 30px;*/
+    border:solid black 2px;
+}
+
+#gestionMenus #menu ul li div p{
+    /*padding-top: 50%;*/
+    position: relative;
+    top: 0px;
+    margin: 5.500px;
+    /*display:inline-block;*/
+    line-height:170px;
+    height: 170px;
+    width: 170px;
     font-weight: bold;
     font-style: italic;
     font-size: 30px;
-    border:solid black 2px;
+    border:solid black 4px;
 }
 
 #gestionMenus #menu ul li .content {
