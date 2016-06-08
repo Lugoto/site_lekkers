@@ -4,113 +4,193 @@
 }
 
 .input-field label {
-  color: #C01422;
+    color: #C01422;
 }
+
 /* label focus color */
 .input-field input[type=text]:focus + label {
-  color: #C01422;
+    color: #C01422;
 }
 
 .input-field input[type=password]:focus + label {
-  color: #C01422;
+    color: #C01422;
 }
 
 /* label underline focus color */
 .input-field input[type=text]:focus {
-  border-bottom: 1px solid #C01422;
-  box-shadow: 0 1px 0 0 #C01422;
+    border-bottom: 1px solid #C01422;
+    box-shadow: 0 1px 0 0 #C01422;
 }
 
 .input-field input[type=password]:focus {
-  border-bottom: 1px solid #C01422;
-  box-shadow: 0 1px 0 0 #C01422;
+    border-bottom: 1px solid #C01422;
+    box-shadow: 0 1px 0 0 #C01422;
 }
 
-::-webkit-scrollbar-track
-{
+::-webkit-scrollbar-track {
     background-color: #F5F5F5;
 }
-::-webkit-scrollbar
-{
+
+::-webkit-scrollbar {
     width: 10px;
     background-color: #F5F5F5;
 }
-::-webkit-scrollbar-thumb
-{
-    background-color: rgb(209, 47, 48); }
 
-body{
-    overflow-y: scroll;
-    background-image:url(../img/fond.jpg);
-    background-repeat:no-repeat;
+::-webkit-scrollbar-thumb {
+    background-color: rgb(209, 47, 48);
 }
 
-.imagesGestion{
+body {
+    /*overflow-y: scroll;*/
+    /*background-image:url(../img/fond.jpg);*/
+    /*background-repeat:no-repeat;*/
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.imagesGestion {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    overflow-y: scroll;
-    height: 70vh;
+    /*height: 70vh;*/
 }
 
-.imagesGestion .myImage{
+.coll-body {
+    background-color: whitesmoke;
+    padding: 10px;
+    padding-bottom: 20px;
+
+    /*Shadow Box*/
+    -moz-box-shadow: inset 0px 5px 20px 0px #c0c0c0;
+    -webkit-box-shadow: inset 0px 5px 20px 0px #c0c0c0;
+    -o-box-shadow: inset 0px 5px 20px 0px #c0c0c0;
+    box-shadow: inset 0px 5px 20px 0px #c0c0c0;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#c0c0c0, Direction=180, Strength=20);
+}
+
+.coll-body form > div {
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.imagesGestion .myImage {
     position: relative;
 }
 
-.imagesGestion .myImage p{
+.imagesGestion .myImage p {
     background-color: rgba(0, 0, 0, 0.30);
     padding: 5px;
     position: absolute;
     color: white;
-    top:10px;
+    top: 10px;
     /*left:10px;*/
 }
 
-.imagesGestion .myImage img{
+.imagesGestion .myImage img {
     height: 20vh;
     width: auto;
     margin-top: 10px;
     /*margin-left: 10px;*/
     flex: 1;
 }
-.imagesGestion .myImage #delete{
+
+.imagesGestion .myImage #delete {
     display: none;
-    padding:5px;
+    padding: 5px;
 }
 
-.imagesGestion .myImage:hover #delete{
+.imagesGestion .myImage:hover #delete {
     display: block;
     background-color: rgba(0, 0, 0, 0.50);
     position: absolute;
-    top:10px;
-    right:0;
+    top: 10px;
+    right: 0;
 }
 
-.formulaire{
-  width: 50vw;
-  height: auto;
-  margin: 0 auto;
-  margin-top: 20vh;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  border-radius: 20px;
-  font-family: "trajan", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+.formulaire {
+    width: 50vw;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 20px;
+    font-family: "trajan", Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
-@media (max-width : 720px) {
-    .imagesGestion{
-        overflow-y: scroll;
-        height: 60vh;
+#gestionMenus .row {
+    margin-bottom: 0;
+}
+
+#gestionMenus .row .tabs{
+    overflow-x: hidden;
+}
+
+#gestionMenus .row .col {
+    padding: 0;
+}
+
+#gestionMenus .row #menu {
+    padding-top: 10px;
+    text-align: center;
+
+    vertical-align: middle;
+}
+
+#gestionMenus #menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#gestionMenus #menu ul li p{
+    position: relative;
+    top: -50px;
+    margin: 0 auto;
+    background-color: white;
+    /*padding-top: 50%;*/
+    line-height:150px;
+    height: 150px;
+    width: 150px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    border:solid black 2px;
+}
+
+#gestionMenus #menu ul li .content {
+    height:100%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#gestionMenus #menu ul li .content img {
+    max-width: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*margin: 0 auto;*/
+
+}
+
+@media (max-width: 1000px) {
+
+    #gestionMenus #menu ul{
+        flex-direction: column;
     }
-    .formulaire{
-      width: 100vw;
-      height: 100%;
-      margin-top: 0vh;
-      padding-top: 0vh;
-      padding-bottom: 0vh;
-      border-radius: 0px;
+
+    .imagesGestion {
+        /*height: 60vh;*/
+    }
+
+    .formulaire {
+        width: 100vw;
+        height: 100%;
+        margin-top: 0vh;
+        padding-top: 0vh;
+        padding-bottom: 0vh;
+        border-radius: 0px;
     }
 }
