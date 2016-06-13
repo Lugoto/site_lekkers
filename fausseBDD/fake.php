@@ -3,7 +3,7 @@ $maDataBase = (object) array(
     'menus' => [
         'classic' => [
             'image' => 'img/gallery/menuClassic.png',
-            'prix' => '7.6'
+            'prix' => '11.6'
         ],
         'extra' => [
             'image' => 'img/gallery/menuExtra.png',

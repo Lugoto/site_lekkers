@@ -105,37 +105,46 @@
                         </div>
                         <div id="menu" class="col s12 coll-body">
                             <ul>
-                                <li>
+                                <li id="classic">
                                     <div class="content">
-                                        <img src="<?php echo $maDataBase->menus['classic']['image'];?>" alt="">
+                                        <img src="<?php echo $maDataBase->menus['classic']['image']; ?>" alt="">
                                         <div class="circle">
                                             <div class="circle">
-                                                <p class="circle">
-                                                    <?php echo $maDataBase->menus['classic']['prix'];?> €
+                                                <form class="row circle" id="classicToDiv"  style="display:none" action="fonctionPhp/changerPrix.php" method="POST">
+                                                    <input type="hidden" name="login" value="<?php echo $_POST['login'] ?>">
+                                                    <input type="hidden" name="password" value="<?php echo $_POST['password'] ?>">
+                                                    <input type="hidden" name="menuType" value="classic">
+                                                    <input class="col s6 offset-s3" type="number" placeholder="PRIX" name="prix" value="<?php echo $maDataBase->menus['classic']['prix']; ?>">
+                                                    <button onclick="classicToOther()" class="col s4 offset-s2 btn red darken-4" type="reset" name="changerPrix" value="Ok"><i class="material-icons">settings_backup_restore</i></button>
+                                                    <button class="col s4 btn red darken-4" type="submit" name="changerPrix" value="Ok"><i class="material-icons">done</i></button>
+                                                </form>
+                                                <p class="circle" id="classicToForm" onclick="classicToOther()">
+
+                                                    <?php echo $maDataBase->menus['classic']['prix']; ?> €
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li>
+                                <li id="extra">
                                     <div class="content">
-                                        <img src="<?php echo $maDataBase->menus['extra']['image']?>" alt="">
+                                        <img src="<?php echo $maDataBase->menus['extra']['image'] ?>" alt="">
                                         <div class="circle">
                                             <div class="circle">
                                                 <p class="circle">
-                                                    <?php echo $maDataBase->menus['extra']['prix']?> €
+                                                    <?php echo $maDataBase->menus['extra']['prix'] ?> €
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li>
+                                <li id="double">
                                     <div class="content">
-                                        <img src="<?php echo $maDataBase->menus['double']['image']?>" alt="">
+                                        <img src="<?php echo $maDataBase->menus['double']['image'] ?>" alt="">
                                         <div class="circle">
                                             <div class="circle">
                                                 <p class="circle">
-                                                    <?php echo $maDataBase->menus['double']['prix']?> €
+                                                    <?php echo $maDataBase->menus['double']['prix'] ?> €
                                                 </p>
                                             </div>
                                         </div>
@@ -207,5 +216,6 @@
     </div>
 <?php }
 else ?>
+<script src="js/loginJS.js"></script>
 </body>
 </html>
