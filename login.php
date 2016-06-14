@@ -110,12 +110,13 @@
                                         <img src="<?php echo $maDataBase->menus['classic']['image']; ?>" alt="">
                                         <div class="circle">
                                             <div class="circle">
-                                                <form class="row circle" id="classicToDiv"  style="display:none" action="fonctionPhp/changerPrix.php" method="POST">
+                                                <form class="row circle" id="classicToDiv" style="display:none" action="fonctionPhp/changerPrix.php" method="POST">
                                                     <input type="hidden" name="login" value="<?php echo $_POST['login'] ?>">
                                                     <input type="hidden" name="password" value="<?php echo $_POST['password'] ?>">
                                                     <input type="hidden" name="menuType" value="classic">
                                                     <input class="col s6 offset-s3" type="number" placeholder="PRIX" name="prix" value="<?php echo $maDataBase->menus['classic']['prix']; ?>">
-                                                    <button onclick="classicToOther()" class="col s4 offset-s2 btn red darken-4" type="reset" name="changerPrix" value="Ok"><i class="material-icons">settings_backup_restore</i></button>
+                                                    <button onclick="classicToOther()" class="col s4 offset-s2 btn red darken-4" type="reset" name="changerPrix" value="Ok"><i class="material-icons">settings_backup_restore</i>
+                                                    </button>
                                                     <button class="col s4 btn red darken-4" type="submit" name="changerPrix" value="Ok"><i class="material-icons">done</i></button>
                                                 </form>
                                                 <p class="circle" id="classicToForm" onclick="classicToOther()">
@@ -162,7 +163,7 @@
             <li id="gestionImages">
                 <div class="active collapsible-header"><i class="material-icons">view_module</i>Gestion des images</div>
                 <div class="coll-body">
-                    <form action="./login.php" class="col s6" style="/*margin-top: 5px*/" method="post" enctype="multipart/form-data">
+                    <form action="login.php" class="col s6" style="/*margin-top: 5px*/" method="post" enctype="multipart/form-data">
                         <div class="file-field input-field">
                             <div class="btn red darken-2 waves-effect waves-light">
                                 <span>Image</span>
@@ -172,8 +173,8 @@
                                 <input class="file-path validate" name="ImagesName[]" type="text" placeholder="Upload one or more images">
                             </div>
                         </div>
-                        <input type="hidden" name="login" value="<?php echo $_POST['login'] ?>">
-                        <input type="hidden" name="password" value="<?php echo $_POST['password'] ?>">
+                        <input type="hidden" name="login" value="<?php echo $_POST["login"]?>">
+                        <input type="hidden" name="password" value="<?php echo $_POST["password"]?>">
                         <button class="btn red darken-2 waves-effect waves-light" type="submit" name="addImages" value="addImages">Ajouter des images
                             <i class="material-icons right">library_add</i>
                         </button>

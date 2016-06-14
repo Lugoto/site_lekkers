@@ -64,7 +64,7 @@
     </div>
     <div class="qualityComponent imgLeft">
         <div class="col center-align s12 l6">
-            <img class="" src="img/gallery/13410781_579990592162667_1763716302_o.jpg" alt="">
+            <img class="" src="img/gallery/13101396_579990328829360_239298218_n.jpg" alt="">
         </div>
         <div class="col left-align s12 l6">
             <h5 class="left-align red-text">NUTRITION ET EQUILIBRE</h5>
@@ -83,12 +83,12 @@
                 Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesentium quas quisquam recusandae rem sed veniam! Qui?l</p>
         </div>
         <div class="col center-align s12 l6">
-            <img class="" src="img/gallery/13410781_579990592162667_1763716302_o.jpg" alt="">
+            <img class="" src="img/gallery/13451173_579990395496020_1437935604_n.jpg" alt="">
         </div>
     </div>
     <div class="qualityComponent imgLeft">
         <div class="col center-align s12 l6">
-            <img class="" src="img/gallery/13410781_579990592162667_1763716302_o.jpg" alt="">
+            <img class="" src="img/gallery/13434178_579990468829346_1332073437_n.jpg" alt="">
         </div>
         <div class="col left-align s12 l6">
             <h5 class="left-align red-text">NUTRITION ET EQUILIBRE</h5>
