@@ -14,7 +14,7 @@
   <script src="js/jquery-1.12.3.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Lekkers</title>
+  <title>Contact</title>
 </head>
 
 <ul id="dropdown1" class="dropdown-content">
@@ -29,8 +29,8 @@
     <div class="nav-wrapper">
       <a href="http://lekkersfrance.com" class="brand-logo">Lekkers</a>
       <ul id="nav-mobile" class="hide-on-med-and-down">
-        <li><a href="#">La qualité</a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="qualite.php">La qualité</a></li>
+        <li><a href="carte.php">La carte</a></li>
         <li><a href="event.php">Info/Event</a></li>
         <li><a href="contact.php">Contact</a></li>
       </ul>

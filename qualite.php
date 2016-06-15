@@ -23,7 +23,7 @@
         <a href="http://lekkersfrance.com" class="brand-logo">Lekkers</a>
         <ul id="nav-mobile" class="hide-on-med-and-down">
             <li><a href="qualite.php">La qualité</a></li>
-            <li><a href="carte.php">La Carte<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href="carte.php">La Carte</a></li>
             <li><a href="event.php">Info/Event</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
