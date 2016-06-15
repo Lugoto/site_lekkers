@@ -28,35 +28,37 @@
     <title>La carte</title>
 </head>
 <body>
-<nav>
-    <div class="nav-wrapper">
-        <a href="http://lekkersfrance.com" class="brand-logo">Lekkers</a>
-        <ul id="nav-mobile" class="hide-on-med-and-down">
-            <li><a href="qualite.php">La qualité</a></li>
-            <li><a href="carte.php">La Carte</a></li>
-            <li><a href="event.php">Info/Event</a></li>
-            <li><a href="contact.php">Contact</a></li>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-            <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
-        </ul>
-        <ul class="soc right hide-on-med-and-down">
-            <li><a class="soc-facebook" href="https://www.facebook.com/Lekkersbagels/?fref=ts"></a></li>
-            <li><a class="soc-twitter" href="#"></a></li>
-            <li><a class="soc-google" href="#"></a></li>
-            <li><a class="soc-instagram" href="#"></a></li>
-            <li><a class="soc-pinterest soc-icon-last" href="#"></a></li>
-        </ul>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="side-nav" id="mobile-demo">
-            <li><a href="qualite.php">La qualité</a></li>
-            <li><a href="carte.php">La carte</a></li>
-            <li><a href="event.php">Info/Event</a></li>
-            <li><a href="contact.php">Contact</a></li>
-            <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
-        </ul>
-    </div>
-</nav>
+  <div class="navbar-fixed">
+  <nav>
+      <div class="nav-wrapper">
+          <a href="http://lekkersfrance.com" class="brand-logo">Lekkers</a>
+          <ul id="nav-mobile" class="hide-on-med-and-down">
+              <li><a href="qualite.php">La qualité</a></li>
+              <li><a href="carte.php">La Carte</a></li>
+              <li><a href="event.php">Info/Event</a></li>
+              <li><a href="contact.php">Contact</a></li>
+          </ul>
+          <ul class="right hide-on-med-and-down">
+              <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
+          </ul>
+          <ul class="soc right hide-on-med-and-down">
+              <li><a class="soc-facebook" href="https://www.facebook.com/Lekkersbagels/?fref=ts"></a></li>
+              <li><a class="soc-twitter" href="#"></a></li>
+              <li><a class="soc-google" href="#"></a></li>
+              <li><a class="soc-instagram" href="#"></a></li>
+              <li><a class="soc-pinterest soc-icon-last" href="#"></a></li>
+          </ul>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="side-nav" id="mobile-demo">
+              <li><a href="qualite.php">La qualité</a></li>
+              <li><a href="carte.php">La carte</a></li>
+              <li><a href="event.php">Info/Event</a></li>
+              <li><a href="contact.php">Contact</a></li>
+              <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
+          </ul>
+      </div>
+  </nav>
+  </div>
 
 <div class="content">
     <div class="carte_header"><p class="white-text">Menu</p></div>
