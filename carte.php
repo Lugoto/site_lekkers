@@ -60,7 +60,7 @@
 
 <div class="content">
     <div class="carte_header"><p class="white-text">Menu</p></div>
-    <div class="section white">
+    <div class="section decorated">
         <div class="row container">
             <div class="bagelMenu">
 
@@ -95,7 +95,7 @@
     <div class="parallax-container">
         <div class="parallax"><img src="img/gallery/carteSandwich.jpg"></div>
     </div>
-    <div class="section white">
+    <div class="section decorated">
         <div class="row container">
             <div class="sandwichMenu">
 
@@ -115,7 +115,7 @@
     <div class="parallax-container">
         <div class="parallax"><img src="img/gallery/carteDessert.jpg"></div>
     </div>
-    <div class="section white">
+    <div class="section decorated">
         <div class="row container">
             <div class="dessertMenu">
 

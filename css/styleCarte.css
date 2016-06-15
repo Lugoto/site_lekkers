@@ -1,13 +1,13 @@
-/*.decorated {
+.decorated {
     padding: 25px;
     background:
-            url("img/border/decorated-top-border.png") top left repeat-x,
-            url("img/border/decorated-bottom-border.png") bottom right repeat-x,
-            #e6e6e6;
-}*/
+            url("../img/border/decorated-top-border.png") top left repeat-x,
+            url("../img/border/decorated-bottom-border.png") bottom right repeat-x,
+            #000;
+}
 
 .carte_header {
-    height: 225px;
+    height: 300px;
     background-image: url("../img/gallery/carteHeader.jpg");
     background-repeat: no-repeat;
     background-position: 0px -175px;
@@ -18,7 +18,7 @@
 }
 
 .carte_header p {
-    line-height: 225px;
+    line-height: 300px;
     margin: 0;
     font-size: 70px;
     font-weight: bold;
@@ -52,11 +52,26 @@
 }
 
 .parallax-container {
-    height: 400px;
+    height: 500px;
 }
 
 .parallax-container img {
     width: 100%;
+}
+
+.decorated {
+    margin-top: -40px;
+    margin-bottom: -40px;
+    background-image:
+            url("../img/border/decorated-top-border.png"),
+            url("../img/border/decorated-bottom-border.png");
+    background-position:
+            0px -0px,
+            bottom right;
+    background-repeat:
+            repeat-x,
+            repeat-x;
+    background-color: rgba(0,0,0,0);
 }
 
 @media screen and (max-width: 1150px) {
