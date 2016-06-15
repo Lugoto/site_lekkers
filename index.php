@@ -39,8 +39,8 @@
         </ul>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="side-nav" id="mobile-demo">
-            <li><a href="qualite.html">La qualité</a></li>
-            <li><a href="carte.html">La carte</a></li>
+            <li><a href="qualite.php">La qualité</a></li>
+            <li><a href="carte.php">La carte</a></li>
             <li><a href="event.php">Info/Event</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>

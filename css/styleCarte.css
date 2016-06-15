@@ -1,0 +1,98 @@
+/*.decorated {
+    padding: 25px;
+    background:
+            url("img/border/decorated-top-border.png") top left repeat-x,
+            url("img/border/decorated-bottom-border.png") bottom right repeat-x,
+            #e6e6e6;
+}*/
+
+.carte_header {
+    height: 225px;
+    background-image: url("../img/gallery/carteHeader.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px -175px;
+    background-size: cover;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.carte_header p {
+    line-height: 225px;
+    margin: 0;
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-shadow: 6px 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+[class*="Menu"]{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+[class*="ContentTitle"]{
+    width: 260px;
+}
+
+[class*="ContentTitle"] h4 {
+    text-align: center;
+}
+
+.menuComponent {
+    height: 350px;
+    width: 250px;
+    box-sizing: content-box;
+    border: 5px solid #be1423;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.parallax-container {
+    height: 400px;
+}
+
+.parallax-container img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+    .carte_header {
+        background-position: 0;
+        height: 150px;
+    }
+
+    .carte_header p {
+        line-height: 150px;
+        font-size: 40px;
+    }
+
+    [class*="Menu"]{
+        flex-direction: column;
+        align-items: center;
+        padding:0;
+    }
+
+    [class*="Menu"].row{
+        margin-bottom: 0;
+    }
+
+    .menuComponent{
+        margin-bottom: 20px;
+    }
+
+    [class*="ContentTitle"]{
+        order:-1;
+    }
+
+    .parallax-container {
+        height: 200px;
+    }
+
+    @media screen and (max-width: 450px) {
+
+    }
+}

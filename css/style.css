@@ -30,6 +30,23 @@ h2 {
     font-weight: bold;
 }
 
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    /*background-color: rgba(0, 0, 0, 0);*/
+}
+
+::-webkit-scrollbar {
+    /*width: 10px;*/
+    width: 0px;
+    background-color: #F5F5F5;
+    /*background-color: rgba(0, 0, 0, 0);*/
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(209, 47, 48);
+    /*background-color: rgba(0, 0, 0, 0);*/
+}
+
 .input-field {
     font-family: "basker", Helvetica, Arial, sans-serif;
 }
@@ -362,19 +379,20 @@ table td {
 .content {
 }
 
-.c_header{
+.c_header {
     height: 225px;
     background-image: url("../img/gallery/13445995_579990728829320_698620989_o.jpg");
     background-repeat: no-repeat;
     background-position: 0px -175px;
-    background-size:cover;
+    background-size: cover;
     text-align: center;
     vertical-align: middle;
 }
-.c_header p{
+
+.c_header p {
     line-height: 225px;
     margin: 0;
-    font-size:70px;
+    font-size: 70px;
     font-weight: bold;
     letter-spacing: 10px;
     text-shadow: 6px 5px 10px rgba(0, 0, 0, 0.5);
@@ -382,7 +400,7 @@ table td {
 
 .qualityComponent {
     height: 450px;
-    margin:0;
+    margin: 0;
 }
 
 .qualityComponent.imgRight div:last-child {
@@ -416,16 +434,16 @@ table td {
 /*la qualité Media*/
 
 @media screen and (max-width: 990px) {
-    .c_header{
+    .c_header {
         background-position: 0;
     }
 
-    .qualityComponent{
+    .qualityComponent {
         height: 100vh;
     }
 
-    @media screen and (max-width: 450px){
-        .c_header p{
+    @media screen and (max-width: 450px) {
+        .c_header p {
             line-height: 100px;
         }
     }
