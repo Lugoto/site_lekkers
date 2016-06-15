@@ -103,7 +103,7 @@
 
                 </div>
                 <div class="sandwichContentTitle">
-                    <h4 class="red-text text-darken-2">Sandwich</h4>
+                    <h4 class="red-text text-darken-2">Sandwichs</h4>
                     <div class="menuComponent sandwichContent"></div>
                 </div>
                 <div class="menuComponent sandwichContent">
@@ -123,7 +123,7 @@
 
                 </div>
                 <div class="dessertContentTitle">
-                    <h4 class="red-text text-darken-2">Dessert</h4>
+                    <h4 class="red-text text-darken-2">Desserts</h4>
                     <div class="menuComponent dessertContent"></div>
                 </div>
                 <div class="menuComponent dessertContent">
