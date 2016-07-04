@@ -17,7 +17,7 @@
     <title>Lekkers</title>
 </head>
 
-
+<div class="navbar-fixed">
 <nav>
     <div class="nav-wrapper">
         <a href="http://lekkersfrance.com" class="brand-logo">Lekkers</a>
@@ -47,6 +47,7 @@
         </ul>
     </div>
 </nav>
+</div>
 
 
 <div class="no">
