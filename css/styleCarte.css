@@ -75,15 +75,7 @@
 }
 
 @media screen and (max-width: 1150px) {
-    .carte_header {
-        background-position: 0;
-        height: 150px;
-    }
 
-    .carte_header p {
-        line-height: 150px;
-        font-size: 40px;
-    }
 
     [class*="Menu"]{
         flex-direction: column;
@@ -104,10 +96,18 @@
     }
 
     .parallax-container {
-        height: 200px;
+        height: 300px;
     }
 
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 730px) {
+        .carte_header {
+            background-position: 0;
+            height: 300px;
+        }
 
+        .carte_header p {
+            line-height: 300px;
+            font-size: 40px;
+        }
     }
 }

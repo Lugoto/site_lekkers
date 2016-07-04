@@ -22,7 +22,12 @@
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper">
-            <a href="http://lekkersfrance.com" class="brand-logo">Lekkers</a>
+            <a href="http://lekkersfrance.com" class="brand-logo">
+                <div class="logoImg">
+                    <img src="img/gallery/Goute%20d'eau%20pour%20logo.png" alt="gouttes d'eau">
+                    <img src="img/bagelogo%20VECTOR%20LEKKERS.png" alt="Logo lekkers bagels station">
+                </div>
+            </a>
             <ul id="nav-mobile" class="hide-on-med-and-down">
                 <li><a href="qualite.php">La qualité</a></li>
                 <li><a href="carte.php">La carte</a></li>
