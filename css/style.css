@@ -126,12 +126,12 @@ h2 {
 .acceuil {
     height: calc(100vh - 64px);
     width: 100%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 .acceuil img {
-    width: 100%;
-    max-height: calc(100vh - 64px);
+    /*width: 100%;*/
+    height: calc(100vh - 64px);
     margin: 0 auto;
 }
 

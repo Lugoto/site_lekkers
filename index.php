@@ -53,7 +53,7 @@
     <body>
 
     <div class="acceuil">
-        <img src="img/acceuil.png" alt=""/>
+        <img srcset="" src="img/gallery/Fond%20site.jpg" alt="">
     </div>
 
 
