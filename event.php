@@ -55,66 +55,73 @@
         </div>
     </nav>
 </div>
-<div class="no">
-    <div class="explication">
-        <img src="img/event.jpg" alt=""/>
-        <div class="details">
-            <h2> Event </h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit vitae purus quis volutpat.
-            Nullam eget dictum elit, sed tempus risus. Cras non molestie tellus, vel consequat lacus. Praesent ut sodales nisi.
-            Suspendisse potenti. Nulla pellentesque pretium sollicitudin. Aenean sit amet aliquam ante, dignissim luctus magna.
-            Nam vitae velit fringilla, porttitor elit sed, sagittis dolor. Morbi interdum suscipit nisi, vel fermentum ante ultrices sed.
-            Praesent facilisis ante eu dui pulvinar sollicitudin. Fusce feugiat mattis leo, quis convallis nisi. Fusce porta ullamcorper ultrices.
-            Nulla sit amet tellus egestas, accumsan nulla eu, sodales massa. Pellentesque lobortis felis quis massa congue volutpat.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-            Vivamus molestie eleifend elit sit amet ultricies. Nam ornare ante quis laoreet ornare. Cras quis erat placerat, sagittis tortor ac,
-            iaculis neque. Suspendisse viverra tempus ex, et feugiat tellus sollicitudin sed. Suspendisse aliquet semper quam,
-            id mollis arcu congue vitae. Suspendisse sed elit ultrices, lacinia eros at, suscipit tellus.
+<div class="no eventBody">
+    <div class="row">
+        <div class="imgDiv col s12 l4">
+            <img class="" src="img/event.jpg" alt=""/>
         </div>
-    </div>
-</div>
+        <div class="desdiv col s12 l4">
+            <h2> Description </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam suscipit vitae purus quis volutpat.
+                Nullam eget dictum elit, sed tempus risus. Cras non molestie tellus, vel consequat lacus. Praesent ut sodales nisi.
+                Suspendisse potenti. Nulla pellentesque pretium sollicitudin. Aenean sit amet aliquam ante, dignissim luctus magna.
+                Nam vitae velit fringilla, porttitor elit sed, sagittis dolor. Morbi interdum suscipit nisi, vel fermentum ante ultrices sed.
+                Praesent facilisis ante eu dui pulvinar sollicitudin. Fusce feugiat mattis leo, quis convallis nisi. Fusce porta ullamcorper ultrices.
+                Nulla sit amet tellus egestas, accumsan nulla eu, sodales massa. Pellentesque lobortis felis quis massa congue volutpat.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                Vivamus molestie eleifend elit sit amet ultricies. Nam ornare ante quis laoreet ornare. Cras quis erat placerat, sagittis tortor ac,
+                iaculis neque. Suspendisse viverra tempus ex, et feugiat tellus sollicitudin sed. Suspendisse aliquet semper quam,
+                id mollis arcu congue vitae. Suspendisse sed elit ultrices, lacinia eros at, suscipit tellus.
+
+            </p>
+        </div>
+        <div class="facebookTimeline col s12 l4">
+
+            <div id="fb-root"></div>
+            <script>(function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>
 
 
-<div id="fb-root"></div>
-<script>(function (d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-</script>
-
-
-<div class="valign-wrapper">
-        <div class="   fb-page"
-             data-href="https://www.facebook.com/Lekkersbagels/"
-             data-tabs="timeline"
-             data-small-header="false"
-             data-adapt-container-width="true"
-             data-hide-cover="false"
-             data-show-facepile="false"
-<!--             data-width="1000"-->
-        >
-            <div class="fb-xfbml-parse-ignore">
-                <blockquote cite="https://www.facebook.com/Lekkersbagels/">
-                    <a href="https://www.facebook.com/Lekkersbagels/">Lekkers</a></blockquote>
+            <div class="valign-wrapper">
+                <div class="   fb-page"
+                     data-href="https://www.facebook.com/Lekkersbagels/"
+                     data-tabs="timeline"
+                     data-small-header="true"
+                     data-adapt-container-width="true"
+                     data-hide-cover="false"
+                     data-show-facepile="false"
+                     data-width="1000"
+                     data-height="700"
+                >
+                    <div class="fb-xfbml-parse-ignore">
+                        <blockquote cite="https://www.facebook.com/Lekkersbagels/">
+                            <a href="https://www.facebook.com/Lekkersbagels/">Lekkers</a></blockquote>
+                    </div>
+                </div>
             </div>
         </div>
-</div>
+    </div>
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
 
-<script>
-    $(document).ready(function () {
-        $(".button-collapse").sideNav();
-    });
-    $(document).ready(function () {
-        $('select').material_select();
-    });
-</script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+        });
+        $(document).ready(function () {
+            $('select').material_select();
+        });
+    </script>
 </body>
 </div>
 </html>

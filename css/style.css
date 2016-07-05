@@ -1,5 +1,6 @@
-body {
+h5, .c_header p, h2{
     /*overflow: hidden;*/
+    font-family: trajan !important;
 }
 
 @font-face {
@@ -407,7 +408,7 @@ table td {
 
 .c_header {
     height: 225px;
-    background-image: url("../img/gallery/Photo qualite2.jpg");
+    background-image: url("../img/gallery/Photo qualitetest.jpg");
     background-repeat: no-repeat;
     background-position: 0 -175px;
     background-size: cover;
@@ -474,4 +475,31 @@ table td {
             line-height: 100px;
         }
     }
+}
+
+
+/* Event page */
+
+.eventBody{
+    padding: 50px;
+    height: 90vh;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.eventBody .imgDiv{
+    overflow: hidden;
+}
+
+.eventBody .imgDiv img{
+    transform: translate(-30%);
+
+}
+
+.eventBody p{
+    margin-left: 3vw;
+}
+
+.eventBody .fb-page{
+    height: 100vh;
 }

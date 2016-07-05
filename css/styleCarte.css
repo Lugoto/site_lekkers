@@ -1,19 +1,15 @@
-.decorated {
-    padding: 25px;
-    background:
-            url("../img/border/decorated-top-border.png") top left repeat-x,
-            url("../img/border/decorated-bottom-border.png") bottom right repeat-x,
-            #000;
+body{
+    font-family: "../font/TrajanPro.ttf";
+    background-color: black;
 }
 
+
+
 .carte_header {
-    height: 300px;
-    background-image: url("../img/gallery/carteHeader.jpg");
-    background-repeat: no-repeat;
-    background-position: 0px -175px;
-    background-size: cover;
+    position: absolute;
+    z-index:9999;
     text-align: center;
-    vertical-align: middle;
+    width: 100vw;
 
 }
 
@@ -33,6 +29,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 
 [class*="ContentTitle"]{
     width: 260px;
@@ -55,13 +52,20 @@
     height: 500px;
 }
 
+.content .parallax-container:first-child{
+    height: 300px !important;
+}
+
+
+
+
 .parallax-container img {
     width: 100%;
 }
 
 .decorated {
-    margin-top: -40px;
-    margin-bottom: -40px;
+    margin-top: -30px;
+    margin-bottom: -30px;
     background-image:
             url("../img/border/decorated-top-border.png"),
             url("../img/border/decorated-bottom-border.png");
@@ -74,18 +78,30 @@
     background-color: rgba(0,0,0,0);
 }
 
-@media screen and (max-width: 1150px) {
-
+@media screen and (max-width: 1577px)  {
 
     [class*="Menu"]{
         flex-direction: column;
         align-items: center;
-        padding:0;
     }
 
-    [class*="Menu"].row{
-        margin-bottom: 0;
+    [class*="Menu"] img{
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        border-bottom: solid #be1423 1px;
     }
+    [class*="Menu"] img:first-child{
+        margin-top: 50px;
+    }
+
+    [class*="Menu"] img:last-child{
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 1150px) {
 
     .menuComponent{
         margin-bottom: 20px;

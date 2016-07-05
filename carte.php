@@ -28,74 +28,75 @@
     <title>La carte</title>
 </head>
 <body>
-  <div class="navbar-fixed">
-  <nav>
-      <div class="nav-wrapper">
-          <a href="http://lekkersfrance.com" class="brand-logo">
-              <div class="logoImg">
-                  <img src="img/gallery/Goute%20d'eau%20pour%20logo.png" alt="gouttes d'eau">
-                  <img src="img/bagelogo%20VECTOR%20LEKKERS.png" alt="Logo lekkers bagels station">
-              </div>
-          </a>
-          <ul id="nav-mobile" class="hide-on-med-and-down">
-              <li><a href="qualite.php">La qualité</a></li>
-              <li><a href="carte.php">La Carte</a></li>
-              <li><a href="event.php">Info/Event</a></li>
-              <li><a href="contact.php">Contact</a></li>
-          </ul>
-          <ul class="right hide-on-med-and-down">
-              <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
-          </ul>
-          <ul class="soc right hide-on-med-and-down">
-              <li><a class="soc-facebook" href="https://www.facebook.com/Lekkersbagels/?fref=ts"></a></li>
-              <li><a class="soc-twitter" href="#"></a></li>
-              <li><a class="soc-google" href="#"></a></li>
-              <li><a class="soc-instagram" href="#"></a></li>
-              <li><a class="soc-pinterest soc-icon-last" href="#"></a></li>
-          </ul>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-          <ul class="side-nav" id="mobile-demo">
-              <li><a href="qualite.php">La qualité</a></li>
-              <li><a href="carte.php">La carte</a></li>
-              <li><a href="event.php">Info/Event</a></li>
-              <li><a href="contact.php">Contact</a></li>
-              <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
-          </ul>
-      </div>
-  </nav>
-  </div>
+<div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper">
+            <a href="http://lekkersfrance.com" class="brand-logo">
+                <div class="logoImg">
+                    <img src="img/gallery/Goute%20d'eau%20pour%20logo.png" alt="gouttes d'eau">
+                    <img src="img/bagelogo%20VECTOR%20LEKKERS.png" alt="Logo lekkers bagels station">
+                </div>
+            </a>
+            <ul id="nav-mobile" class="hide-on-med-and-down">
+                <li><a href="qualite.php">La qualité</a></li>
+                <li><a href="carte.php">La Carte</a></li>
+                <li><a href="event.php">Info/Event</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
+            </ul>
+            <ul class="soc right hide-on-med-and-down">
+                <li><a class="soc-facebook" href="https://www.facebook.com/Lekkersbagels/?fref=ts"></a></li>
+                <li><a class="soc-twitter" href="#"></a></li>
+                <li><a class="soc-google" href="#"></a></li>
+                <li><a class="soc-instagram" href="#"></a></li>
+                <li><a class="soc-pinterest soc-icon-last" href="#"></a></li>
+            </ul>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="qualite.php">La qualité</a></li>
+                <li><a href="carte.php">La carte</a></li>
+                <li><a href="event.php">Info/Event</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
 <div class="content">
-    <div class="carte_header"><p class="white-text">Menu</p></div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <div class="carte_header"><p class="white-text">Menu</p></div>
+            <img src="img/gallery/Fond carte.jpg">
+        </div>
+    </div>
     <div class="section decorated">
+        <div class="Menu">
+            <img src="img/gallery/menuClassic.png" alt="">
+            <img src="img/gallery/menuExtra.png" alt="">
+            <img src="img/gallery/menuMaxi.png" alt="">
+            <img src="img/gallery/menuDouble.png" alt="">
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/gallery/carteSandwich.jpg"></div>
+    </div>
+    <div class="section decorated">
+        <h4 class="center-align red-text text-darken-2">Bagels</h4>
         <div class="row container">
             <div class="bagelMenu">
-
-                <div class="menuComponent bagelContent">
-
-                </div>
-                <div class="bagelContentTitle">
-                    <h4 class="red-text text-darken-2">Bagels</h4>
-                    <div class="menuComponent bagelContent"></div>
-                </div>
-                <div class="menuComponent bagelContent">
-
-                </div>
+                <div class="bagelContent"></div>
+                <div class="bagelContent"></div>
+                <div class="bagelContent"></div>
             </div>
         </div>
         <div class="row container">
             <div class="bagelMenu">
-
-                <div class="menuComponent bagelContent">
-
-                </div>
-                <div class="bagelContentTitle">
-                    <h4 class="red-text text-darken-2 hide-on-med-and-down">&nbsp</h4>
-                    <div class="menuComponent bagelContent"></div>
-                </div>
-                <div class="menuComponent bagelContent">
-
-                </div>
+                <div class="bagelContent"></div>
+                <div class="bagelContent"></div>
+                <div class="bagelContent"></div>
             </div>
         </div>
     </div>
