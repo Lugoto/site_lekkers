@@ -21,7 +21,6 @@
             $(".button-collapse").sideNav();
             $(".dropdown-button").dropdown();
             $("select").material_select();
-            $(".dropdown-button").dropdown({hover: false});
             $('.parallax').parallax();
         });
     </script>
@@ -81,65 +80,51 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="img/gallery/carteSandwich.jpg"></div>
-    </div>
-    <div class="section decorated">
-        <h4 class="center-align red-text text-darken-2">Bagels</h4>
-        <div class="row container">
-            <div class="bagelMenu">
-                <div class="bagelContent"></div>
-                <div class="bagelContent"></div>
-                <div class="bagelContent"></div>
-            </div>
+        <div class="parallax">
+            <div class="carte_Title"><p class="white-text">Bagels</p></div>
+            <img src="img/gallery/carteHeader.jpg">
         </div>
-        <div class="row container">
-            <div class="bagelMenu">
-                <div class="bagelContent"></div>
-                <div class="bagelContent"></div>
-                <div class="bagelContent"></div>
-            </div>
+    </div>
+    <div class="section decorated bagelMenuManager">
+        <div class="bagelMenu">
+            <img src="img/gallery/bagOne.png" alt="">
+            <img src="img/gallery/bagChicken.png" alt="">
+            <img src="img/gallery/BagBacon.png" alt="">
+        </div>
+        <div class="bagelMenu">
+            <img src="img/gallery/BaconExtra.png" alt="">
+            <img src="img/gallery/topChevre.png" alt="">
+            <img src="img/gallery/le68.png" alt="">
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="img/gallery/carteSandwich.jpg"></div>
+        <div class="parallax">
+            <div class="carte_Title"><p class="white-text">Salades</p></div>
+            <img src="img/gallery/carteSalade.jpg">
+        </div>
     </div>
-    <div class="section decorated">
-        <div class="row container">
-            <div class="sandwichMenu">
-
-                <div class="menuComponent sandwichContent">
-
-                </div>
-                <div class="sandwichContentTitle">
-                    <h4 class="red-text text-darken-2">Sandwichs</h4>
-                    <div class="menuComponent sandwichContent"></div>
-                </div>
-                <div class="menuComponent sandwichContent">
-
-                </div>
-            </div>
+    <div class="section decorated bagelMenuManager">
+        <div class="saladMenu">
+            <img src="img/gallery/Salade1v3.png" alt="">
+            <img src="img/gallery/Salade2v3.png" alt="">
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="img/gallery/carteDessert.jpg"></div>
-    </div>
-    <div class="section decorated">
-        <div class="row container">
-            <div class="dessertMenu">
-
-                <div class="menuComponent dessertContent">
-
-                </div>
-                <div class="dessertContentTitle">
-                    <h4 class="red-text text-darken-2">Desserts</h4>
-                    <div class="menuComponent dessertContent"></div>
-                </div>
-                <div class="menuComponent dessertContent">
-
-                </div>
-            </div>
+        <div class="parallax">
+            <div class="carte_Title"><p class="white-text">Dwichs</p></div>
+            <img src="img/gallery/carteSandwich.jpg">
         </div>
     </div>
+    <div class="section decorated bagelMenuManager">
+        <div class="saladMenu">
+            <img src="img/gallery/dwichBacon.png" alt="">
+            <img src="img/gallery/dwichPouletFrite.png" alt="">
+            <img src="img/gallery/dwichSaumon.png" alt="">
+        </div>
+    </div>
+
+
+
 </div>
 
 </body>

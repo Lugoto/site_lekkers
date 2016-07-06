@@ -61,7 +61,8 @@
     <div class="acceuil">
         <img srcset="img/gallery/Fond%20Mobil.jpg 900w, img/gallery/Fond%20site.jpg 1920w"
              src="img/gallery/Fond%20site.jpg"
-             alt="">
+             alt=""
+        >
     </div>
 
 

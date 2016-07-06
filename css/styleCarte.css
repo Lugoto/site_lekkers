@@ -1,19 +1,17 @@
-body{
-    font-family: "../font/TrajanPro.ttf";
+body {
+    font-family: "../font/TrajanPro.ttf", sans-serif;
     background-color: black;
 }
 
-
-
-.carte_header {
+.carte_header, .carte_Title {
     position: absolute;
-    z-index:9999;
+    z-index: 9999;
     text-align: center;
     width: 100vw;
 
 }
 
-.carte_header p {
+.carte_header p, .carte_Title p {
     line-height: 300px;
     margin: 0;
     font-size: 70px;
@@ -23,107 +21,140 @@ body{
 
 }
 
-[class*="Menu"]{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.carte_Title p {
+    line-height: 400px;
+}
+
+.Menu, .bagelMenu, .saladMenu {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: -webkit-flex;
     display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
     justify-content: space-around;
 }
 
-
-[class*="ContentTitle"]{
-    width: 260px;
+.bagelMenu img {
+    height: 400px;
 }
 
-[class*="ContentTitle"] h4 {
-    text-align: center;
-}
-
-.menuComponent {
-    height: 350px;
-    width: 250px;
-    box-sizing: content-box;
-    border: 5px solid #be1423;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+.Menu img {
+    height: 600px;
 }
 
 .parallax-container {
-    height: 500px;
+    height: 400px;
 }
 
-.content .parallax-container:first-child{
+.content .parallax-container:first-child {
     height: 300px !important;
 }
-
-
-
 
 .parallax-container img {
     width: 100%;
 }
 
 .decorated {
-    margin-top: -30px;
-    margin-bottom: -30px;
-    background-image:
-            url("../img/border/decorated-top-border.png"),
-            url("../img/border/decorated-bottom-border.png");
-    background-position:
-            0px -0px,
-            bottom right;
-    background-repeat:
-            repeat-x,
-            repeat-x;
-    background-color: rgba(0,0,0,0);
+    margin-top: -28px;
+    margin-bottom: -28px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../img/border/decorated-top-border.png"),
+    url("../img/border/decorated-bottom-border.png");
+    background-repeat: repeat-x,
+    repeat-x;
+    background-position: 0 0,
+    bottom right;
 }
 
-@media screen and (max-width: 1577px)  {
+@media screen and (max-width: 1635px) {
+    .saladMenu img {
+        height: 200px;
+    }
+}
 
-    [class*="Menu"]{
+@media screen and (max-width: 1520px) {
+    .bagelMenu img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+
+    .Menu, .bagelMenu, .saladMenu {
         flex-direction: column;
         align-items: center;
     }
 
-    [class*="Menu"] img{
+    .Menu img, .bagelMenu img, .saladMenu img {
+        height: 500px;
         padding-bottom: 40px;
         margin-bottom: 40px;
         border-bottom: solid #be1423 1px;
     }
-    [class*="Menu"] img:first-child{
+
+    .saladMenu img {
+        height: 300px;
+    }
+
+    .Menu img:first-child, .bagelMenuManager .bagelMenu:first-child img:first-child, .saladMenu img:first-child {
         margin-top: 50px;
     }
 
-    [class*="Menu"] img:last-child{
+    .Menu img:last-child, .bagelMenuManager .bagelMenu:last-child img:last-child, .saladMenu img:last-child {
         padding-bottom: 40px;
         margin-bottom: 40px;
         border-bottom: none;
     }
-}
 
-@media screen and (max-width: 1150px) {
-
-    .menuComponent{
-        margin-bottom: 20px;
-    }
-
-    [class*="ContentTitle"]{
-        order:-1;
-    }
-
-    .parallax-container {
+    .bagelMenu img {
         height: 300px;
     }
 
-    @media screen and (max-width: 730px) {
-        .carte_header {
-            background-position: 0;
-            height: 300px;
-        }
+    .bagelMenuManager .bagelMenu:first-child {
+        padding-bottom: 0;
+    }
 
-        .carte_header p {
-            line-height: 300px;
-            font-size: 40px;
-        }
+    .bagelMenuManager .bagelMenu:last-child {
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .saladMenu img {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .carte_header {
+        background-position: 0;
+        height: 300px;
+    }
+
+    .carte_Title {
+        background-position: 0;
+        height: 300px;
+    }
+
+    .content .parallax-container, .content .parallax-container:first-child {
+        height: 200px !important;
+    }
+
+    .content .parallax-container:first-child img {
+        width: 200%;
+    }
+
+    .carte_Title p, .carte_header p {
+        line-height: 200px;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bagelMenu img, .saladMenu img {
+        width: 100%;
+        height: 100%
     }
 }
