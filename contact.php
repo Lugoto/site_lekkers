@@ -44,10 +44,8 @@
       </ul>
       <ul class="soc right hide-on-med-and-down">
         <li><a class="soc-facebook" href="https://www.facebook.com/Lekkersbagels/?fref=ts"></a></li>
-        <li><a class="soc-twitter" href="#"></a></li>
-        <li><a class="soc-google" href="#"></a></li>
-        <li><a class="soc-instagram" href="#"></a></li>
-        <li><a class="soc-pinterest soc-icon-last" href="#"></a></li>
+        <li><a class="soc-google" href="https://plus.google.com/114124877096695702602"></a></li>
+        <li><a class="soc-instagram" href="https://www.instagram.com/lekkersbagels/?hl=fr"></a></li>
       </ul>
 
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -105,7 +103,7 @@
 
     <div class="informations">
 <h2>Informations</h2>
-<div class="ligne-info"><div class="rouge">Mobile: </div>06 29 36 67 98</div>
+<div class="ligne-info"><div class="rouge">Mobile: </div>05 56 79 31 58</div>
 <div class="ligne-info"><div class="rouge">Adresse: </div>68 Quai des Chartrons, 33000 Bordeaux</div>
     </div>
   </div>
