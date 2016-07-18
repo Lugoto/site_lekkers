@@ -413,7 +413,8 @@ table td {
 
 /*La qualité*/
 
-.content {
+.row{
+  margin-bottom: 0px;
 }
 
 .c_header {
@@ -429,43 +430,102 @@ table td {
 .c_header p {
     line-height: 225px;
     margin: 0;
-    font-size: 70px;
+    font-size: 4em;
     font-weight: bold;
     letter-spacing: 10px;
     text-shadow: 6px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-.qualityComponent {
-    height: 450px;
-    margin: 0;
+.ligne{
+  height: auto;
+  width: 100%;
+  overflow: auto;
 }
 
-.qualityComponent.imgRight div:last-child {
-    padding: 50px 150px;
-    height: 400px;
-    overflow: hidden;
+.ligne2{
+  height: auto;
+  width: 100%;
+  background-color: #EBEBEC;
+  overflow: auto;
 }
 
-.qualityComponent.imgLeft div:first-child {
-    padding: 50px 150px;
-    height: 400px;
-    overflow: hidden;
+.ligne p{
+  padding: 3%;
+  height: auto;
+  width: 100%;
+  font-family: "basker", Helvetica, sans-serif;
+  font-size: 1.1em;
+  text-align: right;
+  line-height:auto;
 }
 
-.qualityComponent img {
-    width: 100%;
+.ligne2 p{
+  padding: 3%;
+  height: auto;
+  width: 100%;
+  font-family: "basker", Helvetica, sans-serif;
+  font-size: 1.1em;
+  text-align: left;
+  line-height:auto;
 }
 
-.qualityComponent h5 {
-    margin: 100px auto 30px auto;
+.ligne h3{
+  height: auto;
+  width: 100%;
+  font-family: "basker", Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: #F44336;
+  text-align: center;
 }
 
-.qualityComponent.imgLeft {
-    background-color: #ebebec;
+.ligne2 h3{
+  height: auto;
+  width: 100%;
+  font-family: "basker", Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: #F44336;
+  text-align: center;
 }
 
-.qualityComponent.imgRight {
-    background-color: #fdfdfe;
+.texteg {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.texted {
+  float: left;
+  width: 50%;
+  height: auto;
+}
+
+.ligne img {
+  width: 100%;
+  float: left;
+  margin-top: -10%;
+}
+
+.ligne2 img {
+  width: 100%;
+  float: left;
+  margin-top: -10%;
+}
+
+.con-image {
+  height: 400px;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  padding: 3%;
+}
+
+.con-image2 {
+  height: 400px;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  padding: 3%;
+  display: none;
 }
 
 /*la qualité Media*/
@@ -480,11 +540,54 @@ table td {
         height: 100vh;
     }
 
+    .qualityComponent.imgLeft div:first-child {
+        padding: 0px 0px;
+        height: 400px;
+        overflow: hidden;
+    }
+
     @media screen and (max-width: 426px) {
         .c_header p {
             line-height: 100px;
         }
     }
+}
+
+@media screen and (max-width: 1430px) {
+  .texteg {
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+
+  .texted {
+    float: left;
+    width: 100%;
+    height: auto;
+  }
+
+  .ligne p{
+    text-align: center;
+  }
+
+  .ligne2 p{
+    text-align: center;
+  }
+
+  .con-image {
+    display: none;
+    }
+
+  .con-image2 {
+    display: block;
+    height: auto;
+    width: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
 }
 
 
