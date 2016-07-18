@@ -1,4 +1,4 @@
-h5, .c_header p, h2{
+h5, .c_header p, h2,.parallax {
     /*overflow: hidden;*/
     font-family: trajan !important;
 }
@@ -145,6 +145,7 @@ h2 {
 }
 
 .acceuil img {
+    margin-top: -50px;
     min-width: 100%;
     /*height: calc(100vh - 56px);*/
     min-height: 100%;

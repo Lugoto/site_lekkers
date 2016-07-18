@@ -42,10 +42,8 @@
           </ul>
           <ul class="soc right hide-on-med-and-down">
               <li><a class="soc-facebook" href="https://www.facebook.com/Lekkersbagels/?fref=ts"></a></li>
-              <li><a class="soc-twitter" href="#"></a></li>
-              <li><a class="soc-google" href="#"></a></li>
-              <li><a class="soc-instagram" href="#"></a></li>
-              <li><a class="soc-pinterest soc-icon-last" href="#"></a></li>
+              <li><a class="soc-google" href="https://plus.google.com/114124877096695702602"></a></li>
+              <li><a class="soc-instagram" href="https://www.instagram.com/lekkersbagels/?hl=fr"></a></li>
           </ul>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="side-nav" id="mobile-demo">
