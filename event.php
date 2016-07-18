@@ -29,8 +29,8 @@
                 </div>
             </a>
             <ul id="nav-mobile" class="hide-on-med-and-down">
-                <li><a href="qualite.php">La qualité</a></li>
-                <li><a href="carte.php">La carte</a></li>
+                <li><a href="qualite.php">La Qualité</a></li>
+                <li><a href="carte.php">La Carte</a></li>
                 <li><a href="event.php">Info/Event</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>

@@ -32,7 +32,7 @@
               </div>
           </a>
           <ul id="nav-mobile" class="hide-on-med-and-down">
-              <li><a href="qualite.php">La qualité</a></li>
+              <li><a href="qualite.php">La Qualité</a></li>
               <li><a href="carte.php">La Carte</a></li>
               <li><a href="event.php">Info/Event</a></li>
               <li><a href="contact.php">Contact</a></li>
@@ -59,54 +59,80 @@
 
 <div class="content row">
     <div class="c_header"><p class="white-text">La qualité</p></div>
-    <div class="qualityComponent imgRight row">
-        <div class="col right-align s12 l6">
-            <h5 class="right-align red-text">NUTRITION ET EQUILIBRE</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt eius minus?
-                <br>
-                <br>
-                Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesentium quas quisquam recusandae rem sed veniam! Qui?l</p>
-        </div>
-        <div class="col center-align s12 l6">
-            <img class="" src="img/gallery/13410781_579990592162667_1763716302_o.jpg" alt="">
-        </div>
-    </div>
-    <div class="qualityComponent imgLeft">
-        <div class="col center-align s12 l6">
-            <img class="" src="img/gallery/13101396_579990328829360_239298218_n.jpg" alt="">
-        </div>
-        <div class="col left-align s12 l6">
-            <h5 class="left-align red-text">NUTRITION ET EQUILIBRE</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt eius minus?
-                <br>
-                <br>
-                Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesentium quas quisquam recusandae rem sed veniam! Qui?l</p>
-        </div>
-    </div>
-    <div class="qualityComponent imgRight">
-        <div class="col right-align s12 l6">
-            <h5 class="right-align red-text">NUTRITION ET EQUILIBRE</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt eius minus?
-                <br>
-                <br>
-                Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesentium quas quisquam recusandae rem sed veniam! Qui?l</p>
-        </div>
-        <div class="col center-align s12 l6">
-            <img class="" src="img/gallery/13451173_579990395496020_1437935604_n.jpg" alt="">
-        </div>
-    </div>
-    <div class="qualityComponent imgLeft">
-        <div class="col center-align s12 l6">
-            <img class="" src="img/gallery/13434178_579990468829346_1332073437_n.jpg" alt="">
-        </div>
-        <div class="col left-align s12 l6">
-            <h5 class="left-align red-text">NUTRITION ET EQUILIBRE</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt eius minus?
-                <br>
-                <br>
-                Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesentium quas quisquam recusandae rem sed veniam! Qui?l</p>
-        </div>
-    </div>
+</div>
+<div class="ligne">
+  <div class="texteg">
+    <h3>NUTRITION ET EQUILIBRE</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus
+     odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+     Autem deserunt eius minus?
+     Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet,
+     consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesent
+     ium quas quisquam recusandae rem sed veniam! Qui?l</p>
+   </div>
+   <div class="con-image">
+     <img src="img/gallery/13410781_579990592162667_1763716302_o.jpg" alt="" />
+   </div>
+   <div class="con-image2">
+     <img src="img/gallery/13410781_579990592162667_1763716302_o.jpg" alt="" />
+   </div>
+
+</div>
+<div class="ligne2">
+  <div class="con-image">
+    <img src="img/gallery/13101396_579990328829360_239298218_n.jpg" alt="" />
+  </div>
+  <div class="texted">
+    <h3>NUTRITION ET EQUILIBRE</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus
+     odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+     Autem deserunt eius minus?
+     Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet,
+     consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesent
+     ium quas quisquam recusandae rem sed veniam! Qui?l</p>
+   </div>
+   <div class="con-image2">
+     <img src="img/gallery/13101396_579990328829360_239298218_n.jpg" alt="" />
+   </div>
+
+</div>
+<div class="ligne">
+  <div class="texteg">
+    <h3>NUTRITION ET EQUILIBRE</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus
+     odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+     Autem deserunt eius minus?
+     Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet,
+     consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesent
+     ium quas quisquam recusandae rem sed veniam! Qui?l</p>
+   </div>
+   <div class="con-image">
+     <img src="img/gallery/13451173_579990395496020_1437935604_n.jpg" alt="" />
+   </div>
+   <div class="con-image2">
+     <img src="img/gallery/13451173_579990395496020_1437935604_n.jpg" alt="" />
+   </div>
+
+</div>
+
+<div class="ligne2">
+  <div class="con-image">
+    <img src="img/gallery/13434178_579990468829346_1332073437_n.jpg" alt="" />
+  </div>
+  <div class="texted">
+    <h3>NUTRITION ET EQUILIBRE</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus
+     odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+     Autem deserunt eius minus?
+     Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet,
+     consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesent
+     ium quas quisquam recusandae rem sed veniam! Qui?l</p>
+   </div>
+
+   <div class="con-image2">
+     <img src="img/gallery/13434178_579990468829346_1332073437_n.jpg" alt="" />
+   </div>
+
 </div>
 
 <script>
