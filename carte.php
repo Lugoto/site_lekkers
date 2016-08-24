@@ -80,7 +80,7 @@
     <div class="parallax-container">
         <div class="parallax">
             <div class="carte_Title"><p class="white-text">Bagels</p></div>
-            <img src="img/gallery/carteHeader.jpg">
+            <img src="img/gallery/carteBagelsHeader.jpg">
         </div>
     </div>
     <div class="section decorated bagelMenuManager">
@@ -98,19 +98,32 @@
     <div class="parallax-container">
         <div class="parallax">
             <div class="carte_Title"><p class="white-text">Salades</p></div>
-            <img src="img/gallery/carteSalade.jpg">
+            <img src="img/gallery/carteSaladeHeader2.jpg">
         </div>
     </div>
     <div class="section decorated bagelMenuManager">
         <div class="saladMenu">
-            <img src="img/gallery/Salade1v3.png" alt="">
-            <img src="img/gallery/Salade2v3.png" alt="">
+            <img src="img/gallery/Salade1v4.png" alt="">
+            <img src="img/gallery/Salade2v4.png" alt="">
         </div>
     </div>
     <div class="parallax-container">
         <div class="parallax">
             <div class="carte_Title"><p class="white-text">Dwichs</p></div>
-            <img src="img/gallery/carteSandwich.jpg">
+            <img src="img/gallery/carteDwichHeader.jpg">
+        </div>
+    </div>
+    <div class="section decorated bagelMenuManager">
+        <div class="saladMenu">
+            <img src="img/gallery/dwichBacon.png" alt="">
+            <img src="img/gallery/dwichPouletFrite.png" alt="">
+            <img src="img/gallery/dwichSaumon.png" alt="">
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <div class="carte_Title"><p class="white-text">Desserts</p></div>
+            <img src="img/gallery/carteDessertHeader.jpg">
         </div>
     </div>
     <div class="section decorated bagelMenuManager">

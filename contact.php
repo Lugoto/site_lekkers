@@ -66,7 +66,7 @@
     <div class="horraire">
 
       <table>
-        <h2>Horraires</h2>
+        <h2>Horaires</h2>
         <tbody>
           <tr>
             <td scope="row">Lundi</td>
