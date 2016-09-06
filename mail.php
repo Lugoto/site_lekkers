@@ -53,7 +53,7 @@ if (!empty($_POST['prenom']) && !empty($_POST['nom']) && !empty($_POST['mail']) 
                 <li><a href="contact.php">Contact</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
-                <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station"
+                <li><a href="https://www.foodora.fr/restaurant/s0tu/lekkers"
                        class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
             </ul>
             <ul class="soc right hide-on-med-and-down">
@@ -70,7 +70,7 @@ if (!empty($_POST['prenom']) && !empty($_POST['nom']) && !empty($_POST['mail']) 
                 <li><a href="carte.html">La carte</a></li>
                 <li><a href="info.html">Info/Event</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station"
+                <li><a href="https://www.foodora.fr/restaurant/s0tu/lekkers"
                        class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
             </ul>
         </div>

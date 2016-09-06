@@ -33,7 +33,7 @@
                 <li><a href="contact.php">Contact</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
-                <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
+                <li><a href="https://www.foodora.fr/restaurant/s0tu/lekkers" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
             </ul>
             <ul class="soc right hide-on-med-and-down">
                 <li><a class="soc-facebook" href="https://www.facebook.com/Lekkersbagels/?fref=ts"></a></li>
@@ -46,7 +46,7 @@
                 <li><a href="carte.php">La carte</a></li>
                 <li><a href="event.php">Info/Event</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
+                <li><a href="https://www.foodora.fr/restaurant/s0tu/lekkers" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
             </ul>
         </div>
     </nav>
