@@ -1,6 +1,6 @@
 h5, .c_header p, h2,.parallax {
     /*overflow: hidden;*/
-    font-family: trajan !important;
+    font-family: trajan, serif !important;
 }
 
 img{
@@ -46,8 +46,8 @@ h2 {
 }
 
 ::-webkit-scrollbar {
-    /*width: 10px;*/
-    width: 0px;
+    width: 10px;
+    /*width: 0px;*/
     background-color: #F5F5F5;
     /*background-color: rgba(0, 0, 0, 0);*/
 }
@@ -420,7 +420,7 @@ table td {
 
 .c_header {
     height: 225px;
-    background-image: url("../img/gallery/Photo qualitetest.jpg");
+    background-image: url("../img/gallery/qualiteheader2.JPG");
     background-repeat: no-repeat;
     background-position: 0 -175px;
     background-size: cover;
@@ -456,7 +456,7 @@ table td {
   width: 100%;
   font-family: "basker", Helvetica, sans-serif;
   font-size: 1.1em;
-  text-align: right;
+  text-align: justify;
   line-height:auto;
 }
 
@@ -466,7 +466,7 @@ table td {
   width: 100%;
   font-family: "basker", Helvetica, sans-serif;
   font-size: 1.1em;
-  text-align: left;
+  text-align: justify;
   line-height:auto;
 }
 
@@ -486,6 +486,10 @@ table td {
   font-size: 1.3em;
   color: #F44336;
   text-align: center;
+}
+
+.texteg, .texted{
+    margin-top: 50px;
 }
 
 .texteg {
@@ -601,19 +605,35 @@ table td {
     text-justify: inter-word;
 }
 
+.eventBody .valign-wrapper {
+    margin-top: 0px;
+}
+
+
 .eventBody .imgDiv{
     overflow: hidden;
 }
 
 .eventBody .imgDiv img{
-    transform: translate(-30%);
-
+    /*transform: translate(-30%);*/
+    /*height: 82vh;*/
+    width:100%;
+    /*margin-left: -11px;*/
+    margin:0 auto;
 }
 
-.eventBody p{
-    margin-left: 3vw;
+.eventBody .facebookTimeline{
+    margin: 0 auto;
 }
 
 .eventBody .fb-page{
-    height: 100vh;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+@media screen and (max-width: 600px){
+    .eventBody{
+        padding:50px 0 0 0 ;
+    }
 }

@@ -56,6 +56,11 @@ body {
     width: 100%;
 }
 
+.parallax-container:nth-child(1) img {
+    transform: translate3d(-50%, 36px, 0px)!important;
+
+}
+
 .decorated {
     margin-top: -28px;
     margin-bottom: -28px;
@@ -67,6 +72,7 @@ body {
     background-position: 0 0,
     bottom right;
 }
+
 
 @media screen and (max-width: 1635px) {
     .saladMenu img {

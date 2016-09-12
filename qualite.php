@@ -38,7 +38,7 @@
               <li><a href="contact.php">Contact</a></li>
           </ul>
           <ul class="right hide-on-med-and-down">
-              <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
+              <li><a href="https://www.foodora.fr/restaurant/s0tu/lekkers" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
           </ul>
           <ul class="soc right hide-on-med-and-down">
               <li><a class="soc-facebook" href="https://www.facebook.com/Lekkersbagels/?fref=ts"></a></li>
@@ -51,7 +51,7 @@
               <li><a href="carte.php">La carte</a></li>
               <li><a href="event.php">Info/Event</a></li>
               <li><a href="contact.php">Contact</a></li>
-              <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
+              <li><a href="https://www.foodora.fr/restaurant/s0tu/lekkers" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
           </ul>
       </div>
   </nav>
@@ -62,75 +62,42 @@
 </div>
 <div class="ligne">
   <div class="texteg">
-    <h3>NUTRITION ET EQUILIBRE</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus
-     odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-     Autem deserunt eius minus?
-     Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet,
-     consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesent
-     ium quas quisquam recusandae rem sed veniam! Qui?l</p>
+    <h3>UN BAGEL SAIN ET SAVOUREUX</h3>
+    <p>Tout nos produits sont frais, et issus d’une agriculture raisonnée et responsable. Retrouvez les goûts des vrais produits grâce aux mélanges astucieux de nos garnitures. Dans un soucis de qualité, nos viandes et poissons sont rigoureusement sélectionnés par nos soins. Nous en contrôlons également la provenance ainsi que les méthodes de fabrication ou de transformation. Pour une transparence totale, nos bagels sont montés sous vos yeux à la demande.</p>
    </div>
    <div class="con-image">
-     <img src="img/gallery/13410781_579990592162667_1763716302_o.jpg" alt="" />
+     <img src="img/gallery/Qualité.png" alt="" />
    </div>
    <div class="con-image2">
-     <img src="img/gallery/13410781_579990592162667_1763716302_o.jpg" alt="" />
+     <img src="img/gallery/Qualité.png" alt="" />
    </div>
 
 </div>
 <div class="ligne2">
   <div class="con-image">
-    <img src="img/gallery/13101396_579990328829360_239298218_n.jpg" alt="" />
+    <img src="img/gallery/plaisir equilibre.jpg" alt="" />
   </div>
   <div class="texted">
-    <h3>NUTRITION ET EQUILIBRE</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus
-     odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-     Autem deserunt eius minus?
-     Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet,
-     consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesent
-     ium quas quisquam recusandae rem sed veniam! Qui?l</p>
+    <h3>NUTRITION, EQUILIBRE ET PLAISIR </h3>
+    <p>Tous nos bagels et toutes nos garnitures sont peu caloriques mais vous apportent tous les nutriments indispensables. Nous avons réussi à élaborer une recette unique qui nous permet de vous offrir des pains frais, moelleux, et savoureux tous les jours. Avec un large choix de menu, un savoir-faire unique et surtout le goût particulier de notre pain, Lekkers travaille tous les jours à ses recettes et a pour ambition de vous proposer le meilleur du bagel. Lekkers vous fait plaisir tout en restant attentif à votre alimentation. </p>
    </div>
    <div class="con-image2">
-     <img src="img/gallery/13101396_579990328829360_239298218_n.jpg" alt="" />
+     <img src="img/gallery/plaisir equilibre.jpg" alt="" />
    </div>
 
 </div>
 <div class="ligne">
   <div class="texteg">
-    <h3>NUTRITION ET EQUILIBRE</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus
-     odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-     Autem deserunt eius minus?
-     Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet,
-     consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesent
-     ium quas quisquam recusandae rem sed veniam! Qui?l</p>
+    <h3>CONTROLE, SUIVI ET TRACABILITE </h3>
+    <p>La chaîne du froid est notre priorité. Du laboratoire de production au restaurant, nous assurons un contrôle permanent. Notre point de vente respecte les normes HACCP (Contrôle des températures, ﬁlmage des produits et analyses régulières). Notre équipe est formée aux précautions d'hygiène aﬁn de pouvoir travailler dans des conditions saines et sérieuses. Nous mettons tout en œuvre en sélectionnant rigoureusement nos fournisseurs aﬁn d’obtenir un maximum de transparence sur les produits ainsi qu’une qualité irréprochable.
+        Chaque fournisseur est sélectionné suivant sa capacité à respecter notre cahier des charges : traçabilité, normes sanitaires et exigences de qualités.
+    </p>
    </div>
    <div class="con-image">
-     <img src="img/gallery/13451173_579990395496020_1437935604_n.jpg" alt="" />
+     <img src="img/gallery/hygiene%20tracabilité.jpg" alt="" />
    </div>
    <div class="con-image2">
-     <img src="img/gallery/13451173_579990395496020_1437935604_n.jpg" alt="" />
-   </div>
-
-</div>
-
-<div class="ligne2">
-  <div class="con-image">
-    <img src="img/gallery/13434178_579990468829346_1332073437_n.jpg" alt="" />
-  </div>
-  <div class="texted">
-    <h3>NUTRITION ET EQUILIBRE</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias blanditiis dolores est exercitationem illo in laudantium molestiae, necessitatibus
-     odit perspiciatis quidem quis quod quos sequi temporibus ut vitae. Est, molestias. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-     Autem deserunt eius minus?
-     Ab alias maxime mollitia nisi pariatur quia tempore totam! Ex iure laudantium quia unde. Ab consectetur facilis obcaecati! Lorem ipsum dolor sit amet,
-     consectetur adipisicing elit. Blanditiis consequuntur cumque dolorum expedita facilis fuga fugiat hic, incidunt iste minima, necessitatibus odit praesent
-     ium quas quisquam recusandae rem sed veniam! Qui?l</p>
-   </div>
-
-   <div class="con-image2">
-     <img src="img/gallery/13434178_579990468829346_1332073437_n.jpg" alt="" />
+     <img src="img/gallery/hygiene%20tracabilité.jpg" alt="" />
    </div>
 
 </div>

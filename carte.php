@@ -43,7 +43,7 @@
                 <li><a href="contact.php">Contact</a></li>
             </ul>
             <ul class="right hide-on-med-and-down">
-                <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
+                <li><a href="https://www.foodora.fr/restaurant/s0tu/lekkers" class="white waves-effect waves-light btn red-text darken-4">Je Commande</a></li>
             </ul>
             <ul class="soc right hide-on-med-and-down">
                 <li><a class="soc-facebook" href="https://www.facebook.com/Lekkersbagels/?fref=ts"></a></li>
@@ -56,7 +56,7 @@
                 <li><a href="carte.php">La carte</a></li>
                 <li><a href="event.php">Info/Event</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="http://www.takeeateasy.fr/fr/livraison-bordeaux/restaurant/lekkers-bagels-station" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
+                <li><a href="https://www.foodora.fr/restaurant/s0tu/lekkers" class="white-text waves-effect waves-light btn red darken-4">Je Commande</a></li>
             </ul>
         </div>
     </nav>
@@ -80,7 +80,7 @@
     <div class="parallax-container">
         <div class="parallax">
             <div class="carte_Title"><p class="white-text">Bagels</p></div>
-            <img src="img/gallery/carteHeader.jpg">
+            <img src="img/gallery/carteBagelsHeader.jpg">
         </div>
     </div>
     <div class="section decorated bagelMenuManager">
@@ -98,19 +98,32 @@
     <div class="parallax-container">
         <div class="parallax">
             <div class="carte_Title"><p class="white-text">Salades</p></div>
-            <img src="img/gallery/carteSalade.jpg">
+            <img src="img/gallery/carteSaladeHeader2.jpg">
         </div>
     </div>
     <div class="section decorated bagelMenuManager">
         <div class="saladMenu">
-            <img src="img/gallery/Salade1v3.png" alt="">
-            <img src="img/gallery/Salade2v3.png" alt="">
+            <img src="img/gallery/Salade1v4.png" alt="">
+            <img src="img/gallery/Salade2v4.png" alt="">
         </div>
     </div>
     <div class="parallax-container">
         <div class="parallax">
             <div class="carte_Title"><p class="white-text">Dwichs</p></div>
-            <img src="img/gallery/carteSandwich.jpg">
+            <img src="img/gallery/carteDwichHeader.jpg">
+        </div>
+    </div>
+    <div class="section decorated bagelMenuManager">
+        <div class="saladMenu">
+            <img src="img/gallery/dwichBacon.png" alt="">
+            <img src="img/gallery/dwichPouletFrite.png" alt="">
+            <img src="img/gallery/dwichSaumon.png" alt="">
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <div class="carte_Title"><p class="white-text">Desserts</p></div>
+            <img src="img/gallery/carteDessertHeader.jpg">
         </div>
     </div>
     <div class="section decorated bagelMenuManager">
