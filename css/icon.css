@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'si';
-    src: url('../icons/socicon.eot');
-    src: url('../icons/socicon.eot?#iefix') format('embedded-opentype'),
-         url('../icons/socicon.woff') format('woff'),
-         url('../icons/socicon.ttf') format('truetype'),
-         url('../icons/socicon.svg#icomoonregular') format('svg');
+    src: url('../icon/socicon.eot');
+    src: url('../icon/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../icon/socicon.woff') format('woff'),
+         url('../icon/socicon.ttf') format('truetype'),
+         url('../icon/socicon.svg#icomoonregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -13,7 +13,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;
-        src: url(../icons/socicon.svg) format(svg);
+        src: url(../icon/socicon.svg) format(svg);
     }
 }
 
@@ -31,7 +31,7 @@
 }
 
 .soc li a {
-    font-family:si!important;
+    font-family:si;
     font-style:normal;
     font-weight:400;
     -webkit-font-smoothing:antialiased;
@@ -78,7 +78,7 @@
 }
 
 .soc-icon-last{
-    margin:0 !important;
+    margin:0 ;
 }
 
 .soc-facebook:before {
@@ -104,9 +104,9 @@
 
 @media (max-width : 1200px) {
     ul .soc{
-      display: none !important;
+      display: none ;
     }
     .soc li {
-        display: none !important;
+        display: none ;
     }
 }

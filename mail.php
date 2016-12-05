@@ -45,7 +45,7 @@ if (!empty($_POST['prenom']) && !empty($_POST['nom']) && !empty($_POST['mail']) 
 <div class="navbar-fixed">
     <nav>
         <div class="nav-wrapper">
-            <a href="http://lekkersfrance.com" class="brand-logo">Lekkers</a>
+            <a href="http://lekkers.fr" class="brand-logo">Lekkers</a>
             <ul id="nav-mobile" class="hide-on-med-and-down">
                 <li><a href="#">La qualité</a></li>
                 <li><a href="#">La carte</a></li>

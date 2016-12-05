@@ -1,0 +1,18 @@
+Options +FollowSymlinks
+Options -Indexes
+RewriteEngine On
+
+ExpiresActive On
+ExpiresDefault "now plus 1 week"
+
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} ^193\.37\.145\.129
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^www.lekkers.fr$ [NC]
+RewriteRule ^(.*)$ http://www.lekkers.fr/$1 [L,R=301]
+
+<IfModule mod_headers.c>
+	Header always set X-Content-Type-Options "nosniff"
+	Header always set X-FRAME-OPTIONS "DENY"
+	Header always set X-XSS-Protection "1; mode=block"
+</IfModule>

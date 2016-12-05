@@ -1,5 +1,5 @@
 body {
-    font-family: "../font/TrajanPro.ttf", sans-serif;
+    font-family: "../fonts/TrajanPro.ttf", sans-serif;
     background-color: black;
 }
 
@@ -11,7 +11,7 @@ body {
 
 }
 
-.carte_header p, .carte_Title p {
+.carte_header h1, .carte_Title p {
     line-height: 300px;
     margin: 0;
     font-size: 70px;
@@ -86,7 +86,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1210px) {
+@media screen and (max-width: 1248px) {
 
     .Menu, .bagelMenu, .saladMenu {
         flex-direction: column;
@@ -152,7 +152,7 @@ body {
         width: 200%;
     }
 
-    .carte_Title p, .carte_header p {
+    .carte_Title p, .carte_header h1 {
         line-height: 200px;
         font-size: 50px;
     }

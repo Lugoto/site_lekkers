@@ -13,14 +13,14 @@
     <script src="js/jquery-1.12.3.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>lekkersLogin</title>
+    <title>lekkersLoginsss</title>
 </head>
 <body>
 
 <?php if (empty($_POST['login'])) { ?>
     <nav>
         <div class="nav-wrapper">
-            <a href="http://lekkersfrance.com" class="brand-logo">Login</a>
+            <a href="http://lekkers.fr" class="brand-logo">Login</a>
         </div>
     </nav>
 
